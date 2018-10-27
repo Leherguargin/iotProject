@@ -1,0 +1,47 @@
+﻿@model IEnumerable<WebApplication2.Models.Nodes>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NodeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Localization)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NodePassword)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NodeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Localization)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NodePassword)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.NodeID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.NodeID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.NodeID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

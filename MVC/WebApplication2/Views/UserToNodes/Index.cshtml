@@ -1,0 +1,47 @@
+﻿@model IEnumerable<WebApplication2.model.UserToNode>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NodeID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Authorizations)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NodeID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Authorizations)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.UserSensorID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.UserSensorID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.UserSensorID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
