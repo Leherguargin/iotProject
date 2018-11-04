@@ -1,0 +1,14 @@
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\bin\Debug\netcoreapp2.1\GenerowanieJsona.deps.json
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\bin\Debug\netcoreapp2.1\GenerowanieJsona.runtimeconfig.json
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\bin\Debug\netcoreapp2.1\GenerowanieJsona.runtimeconfig.dev.json
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\bin\Debug\netcoreapp2.1\GenerowanieJsona.dll
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\bin\Debug\netcoreapp2.1\GenerowanieJsona.pdb
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\obj\Debug\netcoreapp2.1\GenerowanieJsona.csprojAssemblyReference.cache
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\obj\Debug\netcoreapp2.1\GenerowanieJsona.csproj.CoreCompileInputs.cache
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\obj\Debug\netcoreapp2.1\GenerowanieJsona.RazorAssemblyInfo.cache
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\obj\Debug\netcoreapp2.1\GenerowanieJsona.RazorAssemblyInfo.cs
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\obj\Debug\netcoreapp2.1\GenerowanieJsona.AssemblyInfoInputs.cache
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\obj\Debug\netcoreapp2.1\GenerowanieJsona.AssemblyInfo.cs
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\obj\Debug\netcoreapp2.1\GenerowanieJsona.RazorTargetAssemblyInfo.cache
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\obj\Debug\netcoreapp2.1\GenerowanieJsona.dll
+C:\Users\Maciej\source\repos\GenerowanieJsona\GenerowanieJsona\obj\Debug\netcoreapp2.1\GenerowanieJsona.pdb
