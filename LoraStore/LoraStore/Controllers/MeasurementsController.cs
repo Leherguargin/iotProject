@@ -67,7 +67,14 @@ namespace LoraStore.Controllers
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
-            }        
+            }
+
+            var sensor = _context.Sensors.SingleOrDefault(s => s.SensorId == measurementInput.SensorId && s.SensorPassword == measurementInput.SensorPassword);
+
+            if (sensor == null)
+            {
+                return Unauthorized();
+            }
 
             var measurement = new Measurement
             {
